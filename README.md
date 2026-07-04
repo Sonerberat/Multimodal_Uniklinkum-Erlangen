@@ -1,6 +1,4 @@
-# Multimodal Pipeline
-
-**Tumor risk relapse in melanoma through a multi-modal data classification algorithm that utilises sparse clinical records and histological stains of tumor samples.**
+## Tumor risk relapse in melanoma through a multi-modal data classification algorithm that utilises sparse clinical records and histological stains of tumor samples.
 
 This multimodal pipeline was developed by Soner Berat Eren, Julia Richter, Sushmita Paul, Martin Eberhardt, Carola Berking, Andreas Maier, Michael Erdmann, and Julio Vera.
 
