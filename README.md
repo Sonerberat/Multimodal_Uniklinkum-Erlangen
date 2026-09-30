@@ -1,6 +1,6 @@
 ## Risk prediction of melanoma relapse using a multi-modal data classification algorithm that utilises routine clinical parameters and standard H&E histology of primary melanoma.
 
-This multimodal pipeline was developed by Soner Berat Eren, Julia Richter, Sushmita Paul, Martin Eberhardt, Carola Berking, Andreas Maier, Michael Erdmann, and Julio Vera.
+This multimodal pipeline was developed by Soner Berat Eren, Julia Richter, Sushmita Paul, Martin Eberhardt, Carola Berking, Michael Erdmann, and Julio Vera.
 
 The proposed pipeline integrates two distinct machine learning architectures to evaluate patient risk using different data modalities. For the histopathological image modality, it utilizes the Enhanced Rapid Training Echo Convolution Network (ERTECNet)—a lightweight model with fewer than 600 thousand parameters that processes H&E stained images. ERTECNet combines a CNN feature extractor (inspired by MobileNetV3 and EfficientNet) with a Deep Echo State Network (DESN) by routing spatial features into a deep reservoir of sparsely connected neurons. For the clinical data modality, a non-linear Radial Basis Function Support Vector Machine (RBF SVM) evaluates routine clinical variables. Finally, the predictions from both the SVM and ERTECNet are combined using a weighted soft-voting procedure to yield a final metastatic risk probability score.
 
